@@ -1,3 +1,4 @@
+
 div{
     margin: 0;
     padding: 0;
@@ -68,27 +69,36 @@ span{
     border-radius: 5px;
 }
 
+.details{
+    width: 70%;
+}
+
 .images{
-    width: 35%;
-    height: 40%;
+    width: 35px;
+    height: 40px;
     position: absolute;
     bottom: 0;
     left: 100px;
 }
+
 .port{
     width:300px;
 }
 
+
+.image {
+    grid-column: 2;
+}  
 .images img{
     height: 100%;
     position: absolute;
-    left: 50%;
+    left: 50px;
     bottom: 0;
-    transform: translate(-50%);
+    transform: translate(-50px);
     transition: bottom 1s, left 1s;
 }
 
 .images:hover .port{
-    left: 45%;
+    left: 45px;
 }
 

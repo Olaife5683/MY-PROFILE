@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Html Foundation ass"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "MY-PROFILE"
+	}
+}
